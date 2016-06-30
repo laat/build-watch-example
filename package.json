@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "build:shared": "cd packages/shared && npm run build",
+    "build:server": "cd packages/server && npm run build",
+    "build": "npm-run-all -p build:*",
+    "test:shared": "cd packages/shared && npm run test",
+    "test:server": "cd packages/server && npm run test",
+    "test": "npm-run-all -p test:*",
+    "watch": "bash scripts/watch.sh",
+    "prepublish": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
+    "babel-preset-react-native": "^1.9.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.10.0",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "eslint-plugin-react-native": "^1.1.0",
+    "lerna": "2.0.0-beta.23",
+    "npm-run-all": "^2.3.0"
+  }
+}

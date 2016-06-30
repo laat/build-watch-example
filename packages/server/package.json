@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "psd2-coachen server",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "BABEL_ENV=commonjs babel -d lib src"
+  },
+  "author": "Sigurd Fosseng",
+  "license": "",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1"
+  }
+}
