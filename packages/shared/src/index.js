@@ -1,4 +1,8 @@
 export class foo {
-    baz() { return "baz"}
+  baz() {
+    return 'baz';
+  }
 }
-export default {success: "baz3"}
+export default {
+  success: 'baz3',
+};
