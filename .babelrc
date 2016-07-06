@@ -2,6 +2,9 @@
   "env": {
     "commonjs": {
       "plugins": ["transform-es2015-modules-commonjs"]
+    },
+    "web": {
+      "presets": ["es2015"]
     }
   }
 }
